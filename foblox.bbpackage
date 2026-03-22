@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "name": "foblox",
+  "display_name": "foblox",
+  "description": "Foundation blocks for BBScript: reusable primitives and utilities.",
+  "author": "Ultradeviant",
+  "category": "foundation",
+  "dependencies": {
+    "bbscript": ">=0.2.0"
+  },
+  "blocks": [
+    "say/say.bbpackage"
+  ]
+}

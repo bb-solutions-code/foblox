@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "block_id": "say",
+  "display_name": "Say",
+  "version": "0.1.0",
+  "author": "Ultradeviant",
+  "date": "2025-03-22",
+  "icon": "",
+  "dependencies": {
+    "bbscript": ">=0.2.0"
+  },
+  "description": "Prints the input to the console and outputs the same value.",
+  "category": "foundation",
+  "entrypoint": "say.py"
+}
