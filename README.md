@@ -1,10 +1,12 @@
-# foblox
+# Foblox
 
 **Foundation Blocks for BBScript** — a block package you can import into BBScript-based workflows. Blocks live under subfolders (for example `say/`) with a `.bbpackage` manifest and Python `entrypoint` per block.
 
 ## Contents
 
 - **`say`** — Prints its `input` to the console (stdout) and passes the same value through as output.
+- **`variable`** — Passes its `value` input through to the block `output` for use in context.
+- **`calculate`** — Takes numbers `a` and `b`, applies `operation` (`+`, `-`, `*`, `/`, or `pow`), and outputs the numeric result on `output`.
 
 ## Requirements
 

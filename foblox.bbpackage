@@ -9,6 +9,8 @@
     "bbscript": ">=0.2.0"
   },
   "blocks": [
-    "say/say.bbpackage"
+    "say/say.bbpackage",
+    "variable/variable.bbpackage",
+    "calculate/calculate.bbpackage"
   ]
 }

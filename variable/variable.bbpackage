@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "block_id": "variable",
+  "display_name": "Variable",
+  "version": "0.1.0",
+  "author": "Ultradeviant",
+  "date": "2025-03-22",
+  "icon": "",
+  "dependencies": {
+    "bbscript": ">=0.2.0"
+  },
+  "description": "Passes the input value through to the block output for use in context.",
+  "category": "foundation",
+  "entrypoint": "variable.py"
+}

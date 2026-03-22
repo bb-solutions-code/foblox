@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "block_id": "calculate",
+  "display_name": "Calculate",
+  "version": "0.1.0",
+  "author": "Ultradeviant",
+  "date": "2025-03-22",
+  "icon": "",
+  "dependencies": {
+    "bbscript": ">=0.2.0"
+  },
+  "description": "Performs a binary arithmetic operation on two numbers and outputs the result.",
+  "category": "foundation",
+  "entrypoint": "calculate.py"
+}
