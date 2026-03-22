@@ -24,7 +24,7 @@ pytest foblox/tests
 
 ## Installation
 
-Use **[bbpm](https://github.com/bb-solutions-code/bbpm)** (BBScript Package Manager) in your project: `bbpm init` (default) or `bbpm fetch https://github.com/bb-solutions-code/foblox.git` installs this package under `.bbpm/packages/`. Run graphs with `bbpm run` so Foblox blocks load next to built-in [BBScript](https://github.com/bb-solutions-code/bbscript) blocks.
+Use **[bbpm](https://github.com/bb-solutions-code/bbpm)** (BBScript Package Manager) in your project: `bbpm init` (default) or `bbpm fetch https://github.com/bb-solutions-code/foblox.git` installs this package under `.bbpm/packages/`. Run graphs with **`bbscript run`** so Foblox blocks load next to built-in [BBScript](https://github.com/bb-solutions-code/bbscript) blocks (requires `bbpm` installed for package loading).
 
 ## Related projects
 
