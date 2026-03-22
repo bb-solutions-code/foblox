@@ -10,7 +10,7 @@
 
 ## Requirements
 
-- **bbscript** `>=0.2.0` (see `foblox.bbpackage`).
+- **[BBScript](https://github.com/bb-solutions-code/bbscript)** `>=0.2.0` (see `foblox.bbpackage`).
 
 ## Running tests
 
@@ -24,4 +24,16 @@ pytest foblox/tests
 
 ## Installation
 
-A BBScript Package Manager (BBPM) will install and register this package in BBScript; that tooling is not part of this repository yet.
+Use **[bbpm](https://github.com/bb-solutions-code/bbpm)** (BBScript Package Manager) in your project: `bbpm init` (default) or `bbpm fetch https://github.com/bb-solutions-code/foblox.git` installs this package under `.bbpm/packages/`. Run graphs with `bbpm run` so Foblox blocks load next to built-in [BBScript](https://github.com/bb-solutions-code/bbscript) blocks.
+
+## Related projects
+
+- **[BBScript](https://github.com/bb-solutions-code/bbscript)** — graph runtime and CLI for `.bbs` documents; Foblox blocks run on this engine.
+- **[bbpm](https://github.com/bb-solutions-code/bbpm)** — installs and registers Foblox (and other `.bbpackage` repos) in a project.
+
+## Contributing
+
+1. Open a branch for your change.
+2. Add or update tests under `tests/` and run pytest as described in **Running tests**.
+3. Keep each block in its own folder with a `.bbpackage` manifest and a clear Python `entrypoint`; document behavior in English.
+4. Target **[BBScript](https://github.com/bb-solutions-code/bbscript)** `>=0.2.0` and align block I/O with how the runtime resolves `args` and `output`.
