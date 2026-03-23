@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "block_id": "switch",
+  "display_name": "Switch",
+  "version": "0.1.0",
+  "author": "Ultradeviant",
+  "date": "2025-03-23",
+  "icon": "",
+  "dependencies": {
+    "bbscript": ">=0.2.0"
+  },
+  "description": "Emits a selector value used to choose one control-flow branch.",
+  "category": "foundation",
+  "entrypoint": "switch.py"
+}

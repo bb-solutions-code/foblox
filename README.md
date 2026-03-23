@@ -7,6 +7,8 @@
 - **`say`** — Prints its `input` to the console (stdout) and passes the same value through as output.
 - **`variable`** — Passes its `value` input through to the block `output` for use in context.
 - **`calculate`** — Takes numbers `a` and `b`, applies `operation` (`+`, `-`, `*`, `/`, or `pow`), and outputs the numeric result on `output`.
+- **`if`** — Evaluates `condition` and outputs a normalized boolean for control-flow routing.
+- **`switch`** — Emits `value` as a selector used by BBScript control links.
 
 ## Requirements
 

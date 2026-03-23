@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "block_id": "if",
+  "display_name": "If",
+  "version": "0.1.0",
+  "author": "Ultradeviant",
+  "date": "2025-03-23",
+  "icon": "",
+  "dependencies": {
+    "bbscript": ">=0.2.0"
+  },
+  "description": "Evaluates a condition and outputs true or false for control-flow routing.",
+  "category": "foundation",
+  "entrypoint": "if.py"
+}

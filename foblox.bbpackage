@@ -11,6 +11,8 @@
   "blocks": [
     "say/say.bbpackage",
     "variable/variable.bbpackage",
-    "calculate/calculate.bbpackage"
+    "calculate/calculate.bbpackage",
+    "if/if.bbpackage",
+    "switch/switch.bbpackage"
   ]
 }
